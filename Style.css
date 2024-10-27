@@ -1,0 +1,261 @@
+/*This is Header*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo{
+    float: left;
+}
+li, a, button{
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+header{
+  display: flex;  
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+background-color: rgb(255, 255, 255);
+.last{
+    display: flex;
+}
+ 
+  
+}
+.li{
+    list-style: none;
+    
+    
+    & li{
+        display: inline-block;
+       padding: 0 10px;
+    }
+}
+.last{
+    
+    .login{
+       padding: 3px 10px; 
+       border: none;
+       background-color: rgb(222, 228, 233);
+       border-radius: 10px;
+    }
+    .get{
+        padding: 5px 10px; 
+        border: none;
+        background-color: rgb(3, 3, 3);
+        color: white;
+        border-radius: 20px;
+     }
+     .global{object-fit: cover;}
+}
+/*Offer Section*/
+
+.mid-div{
+    background-image: url(Rectangle\ 1.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    .offer{
+        position: relative;
+       align-items: center;
+        height: 280px;
+        width: 1100px;
+        background-color: white;
+        top: 50%; left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+        & p{
+            padding-top: 50px;
+            padding-bottom: 20px;
+            text-align: center;
+            font-weight:900;
+            
+        }
+    }
+    .input1{
+        text-align: center;
+      
+        & input{
+            padding: 3px 3px;
+            border: none;
+            background-color: aliceblue;
+            border-radius: 3px;
+        }
+ 
+    }
+    .input2{
+        text-align: center;
+        .how{
+           padding: 3px 80px;
+           border-radius: 5px;
+        }
+        & button{
+            background-color: #00ebc7;
+            border-radius: 6px;
+            border: none;
+            padding: 3px 20px;
+        }
+    }
+    .why{
+        text-align: center;
+        padding-top: 200px;
+        & button{
+            border-radius: 8px;
+            padding: 8px 2px;
+            border: 1px solid rgb(255, 255, 255);
+            text-decoration: underline;
+            background: none;
+            color: white;
+        }
+    }
+    
+}
+/*buy Sale Section*/
+.buy-sell{
+    height: 200px;
+    width: 100%;
+    background-color:#fde24f ;
+
+    .buy{
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        font-weight: bold;
+    }
+    
+}
+/*feature Section*/
+.features{
+    height: 400px;
+    width: 100%;
+}
+/*frame Section*/
+.main-frame{
+    display: flex;
+    .frame{
+        padding: 40px 150px;
+        border: 1px solid rgb(116, 113, 102);
+
+    }
+    .buy{
+       
+       padding-top: 7px;
+       padding-bottom: 20px;
+       font-weight: bold;
+       margin-left: 10px;
+    }
+
+    .div1{
+        display: flex;
+       align-items: center;
+       padding-top: 10px;
+       padding: 10px 40px;
+       border: 1px solid rgb(116, 113, 102);
+       margin-top: 15px;
+       font-family: 'Times New Roman', Times, serif;
+       border-radius: 7px;
+       & img{
+        height: 40px;
+        margin-right: 10px;
+        
+       }
+        
+    }
+    & button{
+        margin-top: 20px;
+        text-align: center;
+        background-color: black;
+        color: #fffefe;
+        border: none;
+        padding: 15px;
+        border-radius: 8px;
+    }
+    .framel{
+      float: right;  
+    }
+}
+/*sign up section*/
+.sign{
+    background-color: #cfbaff;
+    height: 300px;
+    width: 100%;
+    position: relative;
+   
+    position: relative;  
+    justify-content: space-between;
+    align-items: center;
+    
+
+    & p{
+        padding-top: 40px;
+        font-weight:200;
+        font-size: 30px;
+        text-align: center;
+    }
+    & button{
+       
+        text-align: center;
+        background-color: black;
+        color: #fffefe;
+        border: none;
+        padding: 15px 20px;
+        border-radius: 10px;
+        right: 45px;
+        left: 45px;
+        display: inline-block;
+       margin: 150px  auto 0;
+
+        
+    }
+    .gbutton{
+        text-align: center;
+    }
+        
+}
+/*Footer Section*/
+.container{
+    background-color: black;
+    height: 300px;
+    width: 100%;
+
+    
+   
+    .row{
+        display: flex;
+        justify-content: space-between;
+         margin-right: 100px;
+        margin-left: 100px;
+        color: white;
+        .footer-col{
+            padding-top: 20px;
+            text-decoration: none;
+            
+            & ul{
+                padding-top: 30px;
+                list-style: none;
+        
+            }
+        }
+        
+    }
+    & a{
+        color: white;
+        list-style: none;
+        padding: 10px;
+
+    }
+
+.copy{
+  color: white;  
+  font-size: small;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-top: 15px;
+}
+    
+}
